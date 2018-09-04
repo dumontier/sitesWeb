@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="site HTML - CSS">
+    <link rel="icon" href="img/html5.png">
+    <link rel="stylesheet" href="css/site.css">
+    <title>Site html css</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+    <!-- On ira ajouter dans le CSS ensuite : font-family: 'Nunito', sans-serif -->
+    <!--<link rel="stylesheet" href="font-awesome/css/fontawesome.min.css">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- header>div*4 -->
+    <header>
+        <div id="logo">
+            <!-- a>button>i -->
+            <a href="#logo">
+                <button type="button">
+                    <i class="fas fa-arrow-circle-up" aria-hidden="true"></i>
+                    <!-- fa => classe de FontAwesome -->
+                    <!-- aria-.. accès de contenus web plus faciles pour les handicapés =>
+                https://developper.mozilla.org/fr/docs/Accessibilit%C3%A9/ARIA
+                -->
+                </button>
+            </a>
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <!-- ./ #logo -->
+
+        <div id="slogan">
+            <h1>Site HTML CSS multipages</h1>
+        </div>
+        <div id="social">
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-square" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="clear"></div>
+    </header>
+
+    <nav>
+        <a href="index.html" class="activ">Accueil</a>
+        <a href="texte.html">Texte</a>
+        <a href="selecteur.html">Selecteur</a>
+        <a href="image.html">Image</a>
+        <a href="position.html">Position</a>
+        <a href="zoning.html">Zoning</a>
+        <a href="tableau.html">Tableau</a>
+        <a href="liste.html">Liste</a>
+        <a href="lien_menu.html">Lien</a>
+        <a href="formulaire.html">Formulaire</a>
+        <a href="multimedia.html">Multimédia</a>
+        <a href="animation.html">Animation</a>
+    </nav>
+    <main id="page-img">
+        <div class="img">
+           <h2>Images</h2> 
+        </div>
+    <section id="image1">
+        <div>
+            <h5>Image de font en CSS</h5>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit esse officiis aliquid facilis eum mollitia autem ab corrupti. Quidem amet consequatur maiores! Ipsa ipsum reprehenderit iusto laudantium cupiditate labore officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quos labore aliquam temporibus et enim tempore unde quibusdam magnam deleniti at, aut sit veritatis rem perspiciatis, iste quis modi voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsa illo nam optio, ut maiores numquam fugiat sunt id dolorum dignissimos rerum vel magnam a voluptatibus veniam eum, illum corporis! </p>
+            </div>
+    </section>
+
+    <section id="image2">
+            <h5>Image dans HTML</h5>
+                <img src="img/toureiffel.jpg" alt="TE">  
+    </section>
+
+    <section id="image3">
+            <h5>Images en HTML / CSS</h5>
+                <img src="img/image.jpg" class="photo1" alt="">
+                <img src="img/image.jpg" class="photo1" alt="">
+                <img src="img/image.jpg" class="photo2" alt="">
+    </section>
+    </main>
+    <footer>
+
+
+    </footer>
+</body>
+
+</html>

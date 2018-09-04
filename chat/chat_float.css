@@ -1,0 +1,56 @@
+/* Section 1 */
+#font1{
+    margin: 0 auto;
+    width: 40%;
+    height: 750px;
+    background-color: #273679;
+    color: white;
+    text-align: center;
+}
+.chat{
+    width: 30%;
+    padding-left: 10px;
+    float: left;
+}
+
+/* Section 2 */
+#font2{
+    margin: 0 auto;
+    width: 50%;
+    height: 800px;
+    background-color: #273679;
+    color: white;
+    text-align: center;
+}
+.chats{
+    float: left;
+    width: 20%;
+    padding-left: 30px;
+}
+.chat5, .chat6, .chat7, .chat8, .chat9{
+    position: absolute;
+    width: 20%;
+}
+.chat5{
+    top: 119%;
+    left: 28%;
+} 
+.chat6{
+    top: 116%;
+    left: 40%;
+} 
+.chat7{
+    top: 119%;
+    left: 51%;
+} 
+.chat8{
+    top: 140%;
+    left: 35%;
+}
+.chat9{
+    top: 140%;
+    left: 46%;
+}
+.clear{
+    clear: both;
+}

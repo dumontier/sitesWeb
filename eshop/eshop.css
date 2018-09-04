@@ -1,0 +1,622 @@
+main{
+    width: 80%;
+    margin: 0 auto;
+    height: 3361px;
+    border: 2px solid black;
+}
+#bar_haut{
+    width: 79.3%;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    background-color: grey;
+}
+    .hgauche, .hcentre, .hdroit{
+        float: left;
+        height: 26px;
+        padding: 3px 155px;
+    }
+/* Début header */
+header{
+    width: 100%;
+    height: 167px;
+    background-color: #f7f9ff;
+}
+    .logo{
+        padding-top: 44px;
+        margin-left: 50px;
+    }
+    .logop{
+        margin-left: 50px;
+    }
+    .devis{
+        margin-top: -81px;
+        padding-left: 960px;
+    }
+    .devis1{
+        margin-top: -38px;
+        padding-left: 1053px;
+    }
+    .conseil{
+        margin-top: 18px;
+        padding-left: 967px;
+    }
+    .conseil1{
+        margin-top: -37px;
+        padding-left: 1053px;
+    }
+    .compte{
+        margin-top: -38px;
+        padding-left: 1380px;
+    }
+    .compte1{
+        margin-top: -96px;
+        padding-left: 1266px;
+    }
+    .panier{
+        margin-top: -39px;
+        padding-left: 1394px;
+    }
+    .panier1{
+        margin-top: 17px;
+        padding-left: 1269px;
+    }
+/* Fin header */
+/* Début nav */
+#nav_bar{
+    padding-bottom: 0px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+#nav_bar a{
+    float: left;
+    text-decoration: none; 
+    border: 1px solid gray;
+    height: 2.8em;
+    line-height: 2.7em;
+    background-color: #f7f9ff;
+    color: black;
+    padding: 0px 38.98px;
+    font-size: 1.2em; 
+    transition: 2s; 
+}
+#nav_bar a:hover{
+    background-color: aqua;
+}
+/* Fin nav */
+
+/* Début section home */
+#home{
+    width: 100%;
+    height: 700px;
+}
+    .home1{
+        float: left;
+        margin-left: 80px;
+        margin-top: 30px;
+        width: 66%;
+    }
+    .home2, .home3{
+        float: left;
+        margin-left: 81px;
+        margin-top: 30px;
+        width: 17%;
+        height: 287px;
+    }
+    .home1 img, .home2 img, .home3 img{
+    width: 100%;
+    } 
+/* Fin section home */
+
+/* Début section icone */
+#icone{
+    width: 100%;
+    height: 150px;
+}
+    .paiement{
+        margin-top: 0;
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+    .livraison{
+        margin-top: 30px;
+        padding-left: 40px;
+    }
+    .garantie{
+        margin-top: -65px;
+        padding-left: 417px;
+    }
+    .gratuit{
+        margin-top: 30px;
+        padding-left: 417px;
+    }
+    .satisfait{
+        margin-top: -65px;
+        padding-left: 829px;
+    }
+    .retour{
+        margin-top: 28px;
+        padding-left: 829px;
+    }
+    .facilites{
+        margin-top: -43px;
+        padding-left: 1220px;
+    }
+    .facilites1{
+        margin-top: -26px;
+        padding-left: 1240px;
+    }
+/* fin de section icone */
+
+/* Début position absolute */
+.absolute1, .absolute2{
+    width: 13.4%;
+    height: 20px;
+    position: absolute;
+    background-color: #f62a66;
+    text-align: center;
+    color: white;
+    padding-top: 2px;
+}
+    .absolute1{
+        top: 51.5%;
+        left: 71.2%;
+    }
+    .absolute2{
+    top: 84.3%;
+    left: 71.2%;
+    }
+.absolute3{
+    position: absolute;
+    background-color: #f62a66;
+    width: 150px;
+    height: 40px;
+    top: 103%;
+    left: 15.2%;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.absolute4{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 2px solid transparent;
+    border-right: 31px solid transparent;
+    border-bottom: 74px solid #f62a66;
+    top: 103%;
+    left: 22.9%; 
+}
+.absolute5{
+    position: absolute;
+    width: 19.8%;
+    height: 139px;
+    background-color: black;
+    text-align: center;
+    top: 135.5%;
+    left: 15.25%;
+}
+.absolute6{
+    position: absolute;
+    width: 19.8%;
+    height: 139px;
+    background-color: black;
+    text-align: center;
+    top: 135.5%;
+    left: 39.95%; 
+}
+.absolute7{
+    position: absolute;
+    width: 19.8%;
+    height: 139px;
+    background-color: black;
+    text-align: center;
+    top: 135.5%;
+    left: 64.7%; 
+}
+.absolute8{
+    position: absolute;
+    width: 19.8%;
+    height: 139px;
+    background-color: black;
+    text-align: center;
+    top: 179.4%;
+    left: 15.25%;
+}
+.absolute9{
+    position: absolute;
+    width: 19.8%;
+    height: 139px;
+    background-color: black;
+    text-align: center;
+    top: 179.4%;
+    left: 39.95%;
+}
+.absolute10{
+    position: absolute;
+    width: 19.8%;
+    height: 139px;
+    background-color: black;
+    text-align: center;
+    top: 179.4%;
+    left: 64.7%;
+}
+    .abs52 i, .abs51 p, .abs62 i, .abs61 p, .abs72 i, .abs71 p, .abs82 i, .abs81 p, .abs92 i, .abs91 p, .abs102 i, .abs101 p{
+        color: palevioletred;
+    }
+    .abs51, .abs61, .abs71, .abs81, .abs91, .abs101{
+        float: left;
+        width: 99.6%;
+        height: 75px;
+        padding-top: 6px;
+        border: 1px solid #b8b0b0;
+        background-color: white;
+    }
+    .abs52,.abs62 ,.abs72, .abs82, .abs92, .abs102{
+        float: left;
+        width: 50%;
+        height: 25px;
+        padding-top: 3px;
+        color: white;
+        background-color: #232931;
+    }
+    .abs53, .abs63, .abs73, .abs83, .abs93, .abs103{
+        float: left;
+        width: 50%;
+        height: 25px;
+        padding-top: 3px;
+        color: white;
+        background-color: #f62a66;
+    }
+    .abs54, .abs64, .abs74, .abs84, .abs94, .abs104{
+        float: left;
+        width: 100%;
+        height: 25px;
+        padding-top: 3px;
+        color: white;
+        background-color: #b8b0b0;
+    }
+
+.absolute11{
+    position: absolute;
+    background-color: #f62a66;
+    width: 120px;
+    height: 25px;
+    top: 202.5%;
+    left: 15.2%;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.absolute12{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 29px solid #f62a66;
+    top: 202.5%;
+    left: 21.5%;
+}
+.absolute13, .absolute14, .absolute15{
+    position: absolute;
+    width: 12%;
+    height: 21%;
+    overflow: hidden;
+}
+    .absolute13{
+        top: 110.8%;
+        left: 39.95%;
+    }
+    .absolute14{
+        top: 110.8%;
+        left: 64.7%;
+    }
+    .absolute15{
+        top: 154.7%;
+        left: 64.7%;
+    }
+    .abs13, .abs14, .abs15{
+        width: 246px;
+        height: 25px;
+        background-color: #f62a66;
+        color: white;
+        text-align: center;
+        transform: rotate(315deg);
+        padding-top: 5px;
+        margin-top: 21%;
+        margin-left: -21%;
+    }
+/* Fin position absolute */
+
+/* Début section presentation */
+#presentation{
+    height: 944px;
+    border-top: 1px solid gray;
+}
+    .pre1, .pre2, .pre3, .pre4, .pre5, .pre6{
+        float: left;
+        width: 25%;
+        padding-top: 43px;
+        padding-left: 93px;
+    }
+    .pre1 img, .pre2 img, .pre3 img, .pre4 img, .pre5 img, .pre6 img{
+        width: 100%;
+    }
+    .p2{
+        top: 118%;
+        left: 34%;
+    }
+    .p3{
+        top: 118.%;
+        left: 26.%;
+    }
+    .p6{
+        top: 162%;
+        left: 59%;
+    }
+/* Fin section presentation */
+
+/* Début section contact */
+#contact{
+    width: 87.8%;
+    height: 304px;
+    margin: 0 auto;
+    background-color: gray;
+}
+    .reveil2, .trio2{
+        position: absolute;
+        width: 13%;
+        height: 230px;
+        text-align: center;
+        color: white;
+    }
+    .lieu{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        top: 208%;
+        left: 20.9%;
+    }
+    .lieu2{
+        position: absolute;
+        width: 160px;
+        height: 60px;
+        text-align: center;
+        color: white;
+        top: 208%;
+        left: 23%;
+    }
+    .tel{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        top: 217%;
+        left: 20.9%;
+    }
+    .tel2{
+        position: absolute;
+        width: 160px;
+        height: 60px;
+        text-align: center;
+        color: white;
+        top: 217%;
+        left: 23%;
+    }
+    .lettre{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        top: 226%;
+        left: 20.9%;
+    }
+    .lettre2{
+        position: absolute;
+        width: 160px;
+        height: 60px;
+        text-align: center;
+        color: white;
+        top: 226%;
+        left: 23%;
+    }
+    .reveil{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        top: 208%;
+        left: 41%;
+    }
+    .reveil2{
+        top: 208%;
+        left: 43%;
+    }
+    .trio{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        top: 208%;
+        left: 64.1%;
+    }
+    .trio2{
+        top: 208%;
+        left: 66.2%;
+    }
+    .parag{
+        position: absolute;
+        width: 650px;
+        height: 30px;
+        text-align: center;
+        font-size: 20px;
+        color: #f62a66;
+        top: 232%;
+        left: 33%;
+    }
+/* Fin section contact */
+
+/* Début section foot */
+#foot{
+    width: 100%;
+    height: 1004px;
+    background-color: #f7f9ff;
+}
+    .fohgi{
+        position: absolute;
+        padding-top: 74px;
+        padding-left: 60px;
+    }
+    .fohg{
+        float: left;
+        width: 20%;
+        height: 353px;
+        padding-left: 4%;
+        text-align: center;
+    }
+    .fohg1{ 
+        padding-top: 2px;
+        padding-left: 114px;
+        text-align: left;
+    }
+    .fohg2{
+        padding-top: 7px;
+        padding-left: 0px;
+        text-align: left;
+        text-decoration: underline; 
+    }
+    .fohgc{
+        float: left;
+        width: 20%;
+        height: 353px;
+        padding-left: 4%;
+        text-align: center;
+    }
+    .fohgc1{
+        padding-top: 0px;
+        padding-left: 53px;
+        text-align: left;
+        text-decoration: underline; 
+    }
+    .fohdc{
+        float: left;
+        width: 20%;
+        height: 353px;
+        padding-left: 4%;
+        text-align: center;
+    }
+    .fohdc img{
+        padding-top: 5px;
+    }
+    .fohd{
+        float: right;
+        width: 20%;
+        height: 1004px;
+        padding-left: 4%;
+        padding-right: 4%;
+        text-align: center;
+    }
+    .fobg{
+        float: left;
+        width: 68%;
+        height: 649px;
+        padding-left: 4%;
+    }
+/* Début section partage */
+    .part1{
+        position: absolute;
+        width: 19%;
+        height: 70px;
+        background-color: #ededed;
+        top: 244.5%;
+        right: 220px;
+    }
+    .part2{
+        position: absolute;
+        top: 245.5%;
+        right: 400px;
+        transform: rotate(46deg);
+    }
+    .part3{
+        position: absolute;
+        top: 245%;
+        right: 226px;
+    }
+    .part4{
+        position: absolute;
+        width: 19%;
+        height: 120px;
+        background-color: #ededed;
+        text-align: center;
+        top: 264%;
+        right: 219px;
+    }
+    .part5{
+        position: absolute;
+        width: 19%;
+        height: 100px;
+        background-color: #ededed;
+        text-align: center;
+        top: 280%;
+        right: 219px;
+    }
+    .part6{
+        position: absolute;
+        width: 19%;
+        height: 100px;
+        background-color: #ededed;
+        text-align: center;
+        top: 286%;
+        right: 219px;
+    }
+    .part7{
+        position: absolute;
+        width: 19%;
+        height: 150px;
+        background-color: #ededed;
+        text-align: center;
+        top: 295%;
+        right: 219px;
+    }
+/* Fin section partage */
+    #cub{
+        position: absolute;
+        width: 19%;
+        height: 100px;
+        background-color: #ededed;
+        top: 251%;
+        right: 220px;
+    }
+    .c1{
+        float: left;
+        padding-left: 3%;
+        padding-top: 2%;
+    }
+/* Fin section foot */
+
+/* Début section basfoot */
+#basfoot{
+    width: 95%;
+    height: 100px;
+    margin: 0 auto;
+    border-top: 2px solid gray;
+}
+    .basf1{
+        position: absolute;
+        top: 338%;
+        left: 47%;
+    }
+    .basf2{
+        position: absolute;
+        top: 343%;
+        left: 13%;
+    }
+    .basf3{
+        position: absolute;
+        top: 343%;
+        left: 63%;
+    }
+/* Fin section basfoot */
+.clear{
+    clear: both;
+}

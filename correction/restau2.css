@@ -1,0 +1,215 @@
+body{
+    background: #9fc5b6;
+    padding: 150px 150px;
+}
+.conteneur{
+    width: 80%;
+    height: 80%;
+    background-image: url(img/pattern.jpg);
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+header{
+    background-image: url(img/woddPlank.jpg);
+    height: 500px;
+}
+
+h1, #soir{
+    display: inline-block;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+#e{
+    text-decoration: underline;
+    color: black;
+}
+.underlin{
+    height: 5px;
+    width: 20px;
+    background-color: #d11718;
+    position: absolute;
+    top: 209px;
+    left: 22.5%;
+}
+.trait{
+    height: 5px;
+    width: 20px;
+    background-color: #d11718;
+    margin: auto;
+}
+.nav_bar ul{
+    display: inline-block;
+    position: absolute;
+    top: 170px;
+    right: 18%;
+    }
+    .nav_bar ul li{
+        list-style: none;
+        display: inline-block;
+        float: left;
+        margin: 0px 20px;
+    }
+    #triangle{
+        width: 0;
+        border-top: 150px solid #e63770;
+        border-left: 150px solid transparent;
+        position: relative;
+        /* border: 25px solid transparent; */
+        /* margin-top: 125px;
+        margin-left: 25px; */
+    }
+.log, #triangle{
+    image-orientation: flip;
+    /* width: 250px; */
+    height: 250px;
+    margin-left: 43%;
+    margin-bottom: 0%;
+    margin-top: 85px;
+}
+.log{
+    position: absolute;
+    bottom: 84%;
+    right: -64px;
+}
+.fleche{
+    width: 50px;
+    height: 50px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom: 5px solid #e63770;
+    border-right: 5px solid #e63770;
+    transform: rotate(45deg);
+    margin-left: 48%;
+    position: relative;
+    bottom: 149px;
+}
+/* 1ère section */
+.a{
+    width: 40%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+.b img{
+    width: 60%;
+    float: right;
+}
+
+/* 2ème section */
+    .c img{
+        width: 65%;
+        float: left;
+    }
+    .d img{
+        width: 20%;
+        height: 20%;
+    }
+    .d{
+        width: 35%;
+        text-align: center;
+        float: right;
+    }
+
+/* 3ème section */
+.e{
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+.e img{
+    width: 15%;
+    height: 15%;
+}
+.f img{
+    width: 50%;
+    float: right;
+}
+/* 4ème section */
+.g img{
+    width: 100%;
+}
+
+/* footer */
+.contact .underlin2{
+    height: 5px;
+    width: 20px;
+    background-color: #d11718;
+    position: relative;
+    left: 84px;
+    bottom: 48px;
+    margin-top: 35px;
+}
+.contact h5{
+    margin-left: 50px;
+
+}
+.ee{
+    text-decoration: underline;
+    color: black;
+}
+span{
+    color: #e63770;
+}
+/* social media */
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+p > a:hover{
+    color: fuchsia;
+    text-decoration:  underline;
+}
+
+ul{
+    list-style: none;
+    margin-left: 60%;
+    padding-bottom: 10%;
+    font-size: 19px;
+    font-family: 'Caveat Brush', cursive;
+}
+
+li{
+     display: inline;
+}
+
+.social-icons a {
+    color: fuchsia;
+    text-decoration: none;
+}
+
+.fa-instagram{
+     padding:10px 14px;
+    transition: .5s;
+}
+.fa-instagram:hover{
+    background-color: #e8584d;
+}
+
+.fa-facebook {
+    padding:10px 14px;
+    transition: .5s;
+   
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.fa-twitter {
+    padding:10px 12px;
+    transition: .5s;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-google-plus {
+    padding:10px 9px;
+    transition: .5s;
+  }
+.fa-google-plus:hover {
+    background-color: #d11718;
+}
+/* end social media */

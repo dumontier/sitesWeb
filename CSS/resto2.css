@@ -1,0 +1,163 @@
+.contenu{
+    width: 90%;
+    height: 80%;
+    border: 1px solid aqua;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+/* ----header------ */
+header{
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    background-image: url(img/woodPlank.jpg)
+}
+.nav_bar ul li{
+    display: inline-block;
+    float: right;
+    padding-right: 10px;
+}
+.nav_bar{
+    padding-left: 5%;
+}
+.log{
+    width: 20%;
+    height: 20%;
+    padding-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ----fin de header----- */
+
+/* -----section------ */
+.histoire, histoire img{
+    margin: 0;
+    width: 60%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+#story .histoire:first-child{
+    padding: 1%;
+    width: 37%;
+}
+.histoire img{
+    width: 100%;
+    height: auto;
+    image-orientation: flip;
+}
+.savon, .savon1{
+    margin: 0;
+    width: 70%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.savon1 img{
+    text-align: center;
+    width: 20%;
+    height: 20%;
+}
+#fare .savon1:last-child{
+    padding: 1%;
+    width: 25%;
+}
+.savon img{
+    width: 100%;
+    height: 350px;
+}
+.liquor1, .liquor{
+    margin: 0;
+    width: 50%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+#drink .liquor1:first-child{
+    padding: 1%;
+    width: 45%;
+}
+.liquor1 img{
+    width: 15%;
+    height: 15%;
+}
+.liquor img{
+    width: 100%;
+    height: auto;
+}
+#eggs img{
+    width: 100%;
+    margin: 0 auto;
+}
+/* -----fin section----- */
+.clear{
+    clear: both;
+}
+
+/* -----footer----- */
+footer .contact{
+    height: 10%;
+    background-image: url(img/pattern.jpg)
+}
+h3, h5{
+    padding-left: 5%;
+}
+
+/* social media */
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+p > a:hover{
+    color: blue;
+    text-decoration:  underline;
+}
+ul{
+    list-style: none;
+    margin-left: 76%;
+    padding-bottom: 2%;
+    font-size: 19px;
+    font-family: 'Caveat Brush', cursive;
+}
+li{
+     display: inline;
+}
+.social-icons a{
+    color: blue;
+    text-decoration: none;
+}
+.fa-instagram{
+     padding:10px 14px;
+    transition: .5s;
+}
+.fa-instagram:hover{
+    background-color: red;
+}
+.fa-facebook {
+    padding:10px 14px;
+    transition: .5s;
+}
+.fa-facebook:hover{
+    background-color: red;
+}
+.fa-twitter {
+    padding:10px 12px;
+    transition: .5s;
+}
+.fa-twitter:hover{
+    background-color: red;
+}
+.fa-google-plus{
+    padding:10px 9px;
+    transition: .5s;
+  }
+.fa-google-plus:hover{
+    background-color: red;
+}
+/* end social media */
+/* -----fin de footer ------*/

@@ -1,0 +1,15 @@
+#creation_box{
+  display: none;
+}
+
+#creation_box audio {
+  width: 100%;
+}
+
+textarea.code {
+  height: 8vh;
+}
+
+h2.product-logo {
+  line-height: 51px;
+}
